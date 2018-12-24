@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/ls_talk"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_gravity="center"
+            >
+        <TextView
+            android:id="@+id/tv_title_talk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="职场"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:gravity="left"/>
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/im_talk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            android:layout_gravity="end"
+            />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

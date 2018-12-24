@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/ic_home"
+        android:icon="@drawable/hot"
+        android:title="大家讨论"/>
+
+    <item
+        android:id="@+id/ic_one"
+        android:icon="@drawable/news"
+        android:title="最新资讯"/>
+    <item
+        android:id="@+id/ic_user"
+        android:icon="@drawable/user"
+        android:title="个人信息"
+        />
+</menu>
